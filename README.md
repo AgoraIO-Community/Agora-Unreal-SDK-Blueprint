@@ -51,7 +51,7 @@ Mac
 
 ## Use the plugin in your project
 
-1. The plugin is already included in: base project folder Plugins/AgoraPlugin
+1. The plugin is already included in: [your_project]Plugins/AgoraPlugin
 2. Add plugin dependency into [your_project]/Source/[project_name]/[project_name].Build.cs, Private Dependencies section
 
 `PrivateDependencyModuleNames.AddRange(new string[] { "AgoraPlugin", "AgoraBlueprintable" });`
@@ -67,8 +67,8 @@ Mac
 ## Mac permissions
 
 Add the following permissions in the info.plist file for device access:
-
-Privacy - Camera Usage Description
-
-Privacy - Microphone Usage Description
+1. Build the project for Mac
+2. Right click [your_project_build_name].app and select "Show Package Contents"
+3. Open the "Info.plist" file 
+4. Add: "Privacy - Camera Usage Description" and "Privacy - Microphone Usage Description" as two new entries
 
