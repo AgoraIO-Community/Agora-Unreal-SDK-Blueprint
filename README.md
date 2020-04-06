@@ -51,7 +51,7 @@ Mac
 
 ## Use the plugin in your project
 
-1. Copy the plugin to [your_project]/Plugins
+1. The plugin is already included in: base project folder Plugins/AgoraPlugin
 2. Add plugin dependency into [your_project]/Source/[project_name]/[project_name].Build.cs, Private Dependencies section
 
 `PrivateDependencyModuleNames.AddRange(new string[] { "AgoraPlugin", "AgoraBlueprintable" });`
