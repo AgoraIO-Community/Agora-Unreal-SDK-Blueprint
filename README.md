@@ -13,13 +13,16 @@ With this sample app, you can:
 Developed with Unreal Engine 4.23
 
 There are two implementations of Agora Video Call demo application:
-1) C++ based.
+1) [C++ based](https://github.com/AgoraIO-Community/Agora-Unreal-SDK-CPP)
 2) Blueprints based.
 
-See [C++ Guide](C++\ Approach/GUIDE.md) and [Blueprints Guide](Blueprints\ Approach/GUIDE.md) for more info.
+For step-by-step instruction on building the video-chat functionality from scratch, see the GUIDE.md files in either project.
 
-Agora plugin is implemented as separate module. Download the project with command `git clone --recursive todo::link_to_the_repo`,
-or [download the plugin here](https://gitlab.nixdev.co/agora.io/agora.io-ue-plugin) and add it's contents to Plugins/AgoraPlugin for each project.
+Agora plugin is implemented as separate module, but is already included in the sample project.  
+[download the plugin here](https://gitlab.nixdev.co/agora.io/agora.io-ue-plugin) and add it's contents to Plugins/AgoraPlugin for each project if you are starting from scratch.
+
+Download the project with command `git clone --recursive todo::link_to_the_repo`.
+
 
 ## Building and running the App
 
