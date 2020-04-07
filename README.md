@@ -23,6 +23,9 @@ Agora plugin is implemented as separate module, but is already included in the s
 
 Download the project with command `git clone --recursive todo::link_to_the_repo`.
 
+## Opening the Project
+When you first open the AgoraVideoCall.uproject, you will receive a message saying, "Missing Agora Video Call Modules", click "Yes" and the project should open smoothly. 
+If you are still having issues, right click the .uproject file, and select "Generate XCode Project" (or the PC equivalent), and rebuild the project.
 
 ## Building and running the App
 
@@ -35,9 +38,9 @@ To package the project:
 ![Alt text](ReadMeImages/HowToPackageProject.png?raw=true "PackageProject")
 ![Alt text](ReadMeImages/HowToPackageProjectMac.png?raw=true "PackageProject")
 
-2) Now need to package the plugin. 
+2) Now need to package the plugin for PC. 
 
-For MacOS you don't need to do that. Just skip this step.
+For MacOS it isn't necessary, skip this step.
 
 Edit->Plugins-> Skip Built-In plugins and scroll down to "Project", click on "Other" to find "AgoraPlugin", then "Package", and select the folder inside the packaged project:
 (Packaged project dir)/WindowsNoEditor/AgoraVideoCall/Plugins/AgoraPlugin/.
@@ -53,13 +56,14 @@ Windows 64-bit
 Mac
 
 ## Use the plugin in your project
+The plugin is already included in: [your_project]Plugins/AgoraPlugin
+If making a new project from scratch:
 
-1. The plugin is already included in: [your_project]Plugins/AgoraPlugin
-2. Add plugin dependency into [your_project]/Source/[project_name]/[project_name].Build.cs, Private Dependencies section
+1. Add plugin dependency into [your_project]/Source/[project_name]/[project_name].Build.cs, Private Dependencies section
 
 `PrivateDependencyModuleNames.AddRange(new string[] { "AgoraPlugin", "AgoraBlueprintable" });`
 
-3. Open Unreal Project, go to **Edit->Plugins**. Find category **Project->Other** and make sure plugin is enabled.
+2. Open Unreal Project, go to **Edit->Plugins**. Find category **Project->Other** and make sure plugin is enabled.
 
 ![Enable Plugin](ReadMeImages/2020-03-12_13-26-59.png)
 
@@ -67,7 +71,7 @@ Mac
 
 - You can find full API document at [Document Center](https://docs.agora.io/en/)
 
-## Mac permissions
+## Mac Build Permissions
 
 Add the following permissions in the info.plist file for device access:
 1. Build the project for Mac
