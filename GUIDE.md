@@ -46,7 +46,7 @@ Follow these steps to integrate the Agora Plugin into your project.
 3. Restart **Unreal Engine** (if it is running).
 4. Go to **Edit->Plugins**. Find category **Project->Other** and make sure plugin is enabled.
 
-![Enable Plugin](GuideImages/2020-03-12_13-26-59.png)
+![Enable Plugin](GuideImages/PluginEnableCheck.png)
 
 ### Create Game Instance
 
@@ -132,7 +132,7 @@ Implement functions as shown below:
 
 Go to **InctoductionWidget_BP**, create widget interface as shown on the image:
 
-![Introduction Widget Inrerfece]((GuideImages/IntroductionWidgetInterface.png)
+![Introduction Widget Interface](GuideImages/IntroductionWidgetInterface.png)
 
 Add initial variables to **EncriptionTypeComboBox**: 
 
@@ -162,7 +162,7 @@ In your project content create new directory called **ButtonTextures**, drag and
 
 Go to **VideoCallLevel_BP**, create widget interface as shown on the image:
 
-![Video Call Widget Interface](GuideImages/UE4Editor_2020-03-19_14-37-04.png)
+![Video Call Widget Interface](GuideImages/VideoCallWidgetLayout.png)
 
 Open **Graph** view, add **isLocalAudioMuted**, **isLocalVideoMuted** boolean variables and **CurrentUserId** Integer64 varuable.
 Add functions and implement them as shown below:
