@@ -30,7 +30,7 @@ Drop the entire AgoraPlugin folder inside of the Plugins folder, and you are goo
 
 ## Building and running the App
 
-Open AgoraVideoCall.uproject with Unreal Editor( version no less than 4.23 ).
+Open AgoraVideoCall.uproject with Unreal Editor 4.23-4.25.
 
 To package the project:
 
