@@ -21,10 +21,10 @@ See [C++ Guide](C++\ Approach/GUIDE.md) and [Blueprints Guide](Blueprints\ Appro
 Agora plugin is implemented as separate module. Download the project with command `git clone --recursive todo::link_to_the_repo`,
 or [download the plugin here](https://gitlab.nixdev.co/agora.io/agora.io-ue-plugin) and add it's contents to Plugins/AgoraPlugin for each project.
 
-## Getting Started
+## Getting Started *IMPORTANT*
 The Agora Plugin must be downloaded, unzipped, and placed into the empty "Plugins" folder of your project's directory. 
 
-[You can find the .zip file here](https://drive.google.com/file/d/1waEe7Hsh6Q-Fh4DhB8DbO3-EBeZ8lsSt/view?usp=sharing)
+[You can find the SDK .zip file here](https://drive.google.com/file/d/1waEe7Hsh6Q-Fh4DhB8DbO3-EBeZ8lsSt/view?usp=sharing)
 
 Drop the entire AgoraPlugin folder inside of the Plugins folder, and you are good to go!
 
