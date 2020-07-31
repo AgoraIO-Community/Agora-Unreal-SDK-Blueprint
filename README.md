@@ -81,6 +81,11 @@ Privacy - Camera Usage Description
 
 Privacy - Microphone Usage Description
 
+## Framework
+
+After packaging the project copy **AgoraRtcKit.framework** from **Plugins/AgoraPlugin/Source/ThirdParty/Agora/Mac/Release** to **(Packaged project dir)/MacNoEditor/[project_name]/Contents/MacOS/**
+
+
 ## iOS packaging
 To package the project fot iOS, you need to generate **Signing Certificate** and **Provisioning Profile**. 
 Follow the instructions from UE4 documentstion: [iOS Provisioning](https://docs.unrealengine.com/en-US/Platforms/Mobile/iOS/Provisioning/index.html)
