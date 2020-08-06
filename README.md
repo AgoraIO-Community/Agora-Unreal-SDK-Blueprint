@@ -81,9 +81,11 @@ Privacy - Camera Usage Description
 
 Privacy - Microphone Usage Description
 
-## Framework
+## Secondary Mac Steps
 
-After packaging the project copy **AgoraRtcKit.framework** from **Plugins/AgoraPlugin/Source/ThirdParty/Agora/Mac/Release** to **(Packaged project dir)/MacNoEditor/[project_name]/Contents/MacOS/**
+1. Package the project from Unreal 
+2. From inside the Plugins folder of the project, copy the file: **AgoraRtcKit.framework** from **Plugins/AgoraPlugin/Source/ThirdParty/Agora/Mac/Release** to 
+3. Paste file into your newly built project folder **(Packaged project dir)/MacNoEditor/[project_name]/Contents/MacOS/**
 
 
 ## iOS packaging
