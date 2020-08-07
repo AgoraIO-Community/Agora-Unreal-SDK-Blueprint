@@ -132,7 +132,7 @@ Implement functions as shown below:
 
 Go to **InctoductionWidget_BP**, create widget interface as shown on the image:
 
-![Introduction Widget Inrerfece]((GuideImages/IntroductionWidgetInterface.png)
+![Introduction Widget Inrerfece](GuideImages/IntroductionWidgetInterface.png)
 
 Add initial variables to **EncriptionTypeComboBox**: 
 
