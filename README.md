@@ -43,6 +43,7 @@ File->Package Project->Windows->Windows(64-bit) then select a folder where you w
 
 ## Mac
 File -> Package Project -> Mac
+
 ![Alt text](ReadMeImages/HowToPackageProjectMac.png?raw=true "PackageProject")
 
 ### Add the following permissions in the info.plist file for device access:
