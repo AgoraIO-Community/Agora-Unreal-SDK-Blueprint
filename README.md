@@ -100,6 +100,10 @@ Now you are ready to package your project for iOS or launch it on iOS device.
 
 `PrivateDependencyModuleNames.AddRange(new string[] { "AgoraPlugin", "AgoraBlueprintable" });`
 
+If the version of your Unreal Editor is 4.24 or higher add the following into [your_project]/Source/[project_name]Editor.Target.cs
+
+`DefaultBuildSettings = BuildSettingsVersion.V2;`
+
 3. Open Unreal Project, go to **Edit->Plugins**. Find category **Project->Other** and make sure plugin is enabled.
 
 ![Enable Plugin](ReadMeImages/2020-03-12_13-26-59.png)
