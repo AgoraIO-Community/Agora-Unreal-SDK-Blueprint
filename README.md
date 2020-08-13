@@ -25,6 +25,8 @@ Mac
 iOS
 
 ## Getting Started *IMPORTANT*
+### If you are starting with a blank project, start with C++ template
+
 Agora plugin is implemented as separate module. Download the project with command `git clone --recursive todo::link_to_the_repo`,
 or [download the plugin .zip file here](https://drive.google.com/file/d/1waEe7Hsh6Q-Fh4DhB8DbO3-EBeZ8lsSt/view?usp=sharing) and add it's contents to the plugins folder inside your Unreal project.
 
