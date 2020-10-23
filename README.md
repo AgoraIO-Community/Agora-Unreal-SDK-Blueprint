@@ -27,7 +27,8 @@ iOS
 ## Getting Started *IMPORTANT*
 ### If you are starting with a blank project, start with C++ template
 
-Agora plugin is in a separate location. [Download the plugin .zip file here](https://apprtcio-my.sharepoint.com/:f:/g/personal/joel_agora_io/Et82vOeNcc5Euajl9A7kSisBeT-c2EorKoZK4uv_nH29Fg?e=lN66ah) and add it's contents to the plugins folder inside your Unreal project.
+Agora plugin is implemented as separate module.
+[Download the plugin .zip file here](https://apprtcio-my.sharepoint.com/:f:/g/personal/joel_agora_io/ElB8ya6XEXNEt742um20rAQBrbSvIo_biLgTIKI8ddrc4w?e=42QaST) and add the AgoraPlugin folder to the "Plugins" folder inside your Unreal project.
 
 You can simply unzip and drop the entire AgoraPlugin folder inside of Plugins, and you're good to go!
 The folder structure should like like <ProjectName>/Plugins/AgoraPlugin/
