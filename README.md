@@ -24,6 +24,8 @@ Mac
 
 iOS
 
+Android (7-10)
+
 ## Getting Started *IMPORTANT*
 ### If you are starting with a blank project, start with C++ template
 
@@ -32,16 +34,24 @@ Agora plugin is implemented as separate module.
 
 You can simply unzip and drop the entire AgoraPlugin folder inside of Plugins, and you're good to go!
 The folder structure should like like <ProjectName>/Plugins/AgoraPlugin/
+  
+The iOS plugin is in a separate folder due to complications between Unreal and iOS building with Agora. This is a known issue and will be fixed in the next update.
 
 ## Building and Running the App
 Open AgoraVideoCall.uproject with Unreal Editor 4.23-4.25.
-To test Agora functionality, you have to package the project and run as a standalone build, or if testing on iOS use Unreal's "Launch" feature.
+Testing Agora Functionality: 
+- PC: Play in editor or make a standalone build
+- Mac: Make a standalone build
+- iOS: Use Unreal's "Launch" feature
+- Android: Make an .apk file and copy it to device
+
 
 To package the project:
 ### Windows
 File->Package Project->Windows->Windows(64-bit) then select a folder where you want to package and wait for result.
 ![Alt text](ReadMeImages/HowToPackageProject.png?raw=true "PackageProject")
 
+Next, copy the /Plugins/AgoraPlugin folder from your project into your built project folder: WindowsNoEditor/<project_name>/Plugins/AgoraPlugin
 
 ## Mac
 File -> Package Project -> Mac
@@ -64,7 +74,7 @@ Privacy - Microphone Usage Description
 
 ## iOS Packaging
 To package the project for iOS, you need to have a **Signing Certificate** and **Provisioning Profile** and add it to your project. 
-I would *highly recommend* going to Project Settings > Platforms > iOS > Build > and check "Automatic Signing" - this saves me a lot of headache.
+I would *highly recommend* going to Project Settings > Platforms > iOS > Build > and check "Automatic Signing" - this saves a lot of headache.
 
 ![iOS settings](ReadMeImages/iOSSettings.png)
 
@@ -92,6 +102,15 @@ To add them in the info.plist go to the **Edit->Project Settings->Platforms: iOS
 `<key>NSCameraUsageDescription</key><string>AgoraVideoCall</string> <key>NSMicrophoneUsageDescription</key><string>AgoraVideoCall</string>`
 
 Now you are ready to package your project for iOS or launch it on iOS device.
+
+
+## Android Packaging
+Using Blueprints, you have to request Android Permissions like so: 
+![Alt text](ReadMeImages/Request_Android_Permissions.png)
+
+In your Unreal Project Settings, include these permissions at Project Settings > Platforms > Android > Advanced APK Packaging > Extra Permissions
+![Alt text](ReadMeImages/AndroidPermissions.png)
+
 
 ## Plugin Dependencies
 
