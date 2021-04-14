@@ -31,7 +31,8 @@ iOS
 
 Android (7-10)
 
-## Getting Started *IMPORTANT*
+## Getting Started
+<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/ProjectSetup.gif" width="650" class="center">
 ### If you are starting with a blank project, start with C++ template
 
 Agora plugin is implemented as separate module.
