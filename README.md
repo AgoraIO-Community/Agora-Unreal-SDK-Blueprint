@@ -37,6 +37,7 @@ Android (7-10)
 ### If you are starting with a blank project, start with C++ template
 
 Agora plugin is implemented as separate module.
+
 <img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/DownloadPlugin.gif" width="650" class="center">
 
 [Download the plugin from the Releases section of the Repo](https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/releases) and add the AgoraPlugin folder to the "Plugins" folder inside your Unreal project.
