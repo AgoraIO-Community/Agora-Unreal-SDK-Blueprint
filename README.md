@@ -84,10 +84,18 @@ Privacy - Camera Usage Description
 
 Privacy - Microphone Usage Description
 
+<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/OpenBuild.gif" width="450" class="center">
+
+<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/plistEntry.gif" width="450" class="center">
+<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/plist.png" width="450" class="center">
+
 ### Add AgoraRtcKit.framework to your newly built project
 1. Package the project from Unreal 
 2. From inside the Plugins folder of the project, copy the file: **AgoraRtcKit.framework** from **Plugins/AgoraPlugin/Source/ThirdParty/Agora/Mac/Release** to 
 3. Paste file into your newly built project folder **(Packaged project dir)/MacNoEditor/[project_name]/Contents/MacOS/**
+
+<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/agorakit.gif" width="450" class="center">|
+<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/MacBuildComplete.gif" width="450" class="center">
 
 ## iOS Packaging
 To package the project for iOS, you need to have a **Signing Certificate** and **Provisioning Profile** and add it to your project. 
