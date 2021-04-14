@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/agora-logo.png" width="650" class="center">
+</p>
+<br>
+
 # AgoraVideoCall Sample App
 
 The Agora Video Call is a demo app that will help you integrate Real Time Engagement directly into your Unreal Engine applications using the AgoraPlugin, that wraps Agora Video SDK.
