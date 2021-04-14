@@ -46,7 +46,12 @@ Agora plugin is implemented as separate module.
 
 You can simply unzip and drop the entire AgoraPlugin folder inside of Plugins, and you're good to go!
 The folder structure should like like <ProjectName>/Plugins/AgoraPlugin/
-  
+
+
+|<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/InstallModules.gif" width="450" class="center">|
+<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/MacSecurity.gif" width="450" class="center">|
+<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/MacSecurity2.gif" width="450" class="center">
+
 The iOS plugin is in a separate folder due to complications between Unreal and iOS building with Agora. This is a known issue and will be fixed in the next update.
 
 ## Building and Running the App
