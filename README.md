@@ -64,7 +64,7 @@ Testing Agora Functionality:
 
 
 To package the project:
-### Windows
+## Windows
 File->Package Project->Windows->Windows(64-bit) then select a folder where you want to package and wait for result.
 ![Alt text](ReadMeImages/HowToPackageProject.png?raw=true "PackageProject")
 
@@ -78,7 +78,7 @@ File -> Package Project -> Mac
 
 ![Alt text](ReadMeImages/HowToPackageProjectMac.png?raw=true "PackageProject")
 
-### Add the following permissions in the info.plist file for device access:
+**Add the following permissions in the info.plist file for device access:
 1. Right click <YourProjectName>.app file - select "Show Package Contents" 
 2. Go to "Contents->Info.plist"
 3. Click the plus next to "Information Property List" and add:
@@ -92,7 +92,7 @@ Privacy - Microphone Usage Description
 <img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/plistEntry.gif" width="450" class="center">
 <img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/plist.png" width="450" class="center">
 
-### Add AgoraRtcKit.framework to your newly built project
+**Add AgoraRtcKit.framework to your newly built project
 1. Package the project from Unreal 
 2. From inside the Plugins folder of the project, copy the file: **AgoraRtcKit.framework** from **Plugins/AgoraPlugin/Source/ThirdParty/Agora/Mac/Release** to 
 3. Paste file into your newly built project folder **(Packaged project dir)/MacNoEditor/[project_name]/Contents/MacOS/**
