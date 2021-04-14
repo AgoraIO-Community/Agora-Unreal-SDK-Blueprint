@@ -70,6 +70,9 @@ File->Package Project->Windows->Windows(64-bit) then select a folder where you w
 
 Next, copy the /Plugins/AgoraPlugin folder from your project into your built project folder: WindowsNoEditor/<project_name>/Plugins/AgoraPlugin
 
+<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/PcPluginCopy.gif" width="450" class="center">
+<img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/PcPluginComplete.gif" width="450" class="center">
+
 ## Mac
 File -> Package Project -> Mac
 
