@@ -3,6 +3,10 @@
 </p>
 <br>
 
+# Important note 2021 #
+This Beta has not been updated to support the latest Unreal Engine v4.26.  Please use [the C++ version](https://github.com/AgoraIO-Community/Agora-Unreal-SDK) of the SDK for the up to date support.
+
+
 # AgoraVideoCall Sample App
 
 The Agora Video Call is a demo app that will help you integrate Real Time Engagement directly into your Unreal Engine applications using the AgoraPlugin, that wraps Agora Video SDK.
@@ -15,7 +19,7 @@ With this sample app, you can:
 - Switch camera
 - Setup resolution and frame rate 
 
-Developed with Unreal Engine 4.23
+Developed with **Unreal Engine 4.23**
 
 There are two implementations of Agora Video Call demo application:
 1) C++ based.
