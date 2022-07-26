@@ -1,10 +1,11 @@
-<p align="center">
-  <img src="https://github.com/AgoraIO-Community/Agora-Unreal-SDK-Blueprint/blob/master/ReadMeImages/agora-logo.png" width="650" class="center">
-</p>
-<br>
 
-# Important note 2021 #
-This Beta has not been updated to support the latest Unreal Engine v4.26.  Please use [the C++ version](https://github.com/AgoraIO-Community/Agora-Unreal-SDK) of the SDK for the up to date support.
+![deprecated](https://user-images.githubusercontent.com/1261195/180920123-dd6edb6a-1dbb-47b7-8059-f354c792b1a4.png)
+
+
+# Important note 2022 #
+This repo is a dated SDK that only can support UE4.23 and thus is deprecated.  Agora is creating a new official BluePrint SDK (ver.4.x) that will be coming before the end of 2022.
+
+Please be advised that the following information is only for reference.
 
 
 # AgoraVideoCall Sample App
