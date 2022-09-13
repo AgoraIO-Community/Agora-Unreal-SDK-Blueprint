@@ -1,6 +1,8 @@
 
 ![deprecated](https://user-images.githubusercontent.com/1261195/180920123-dd6edb6a-1dbb-47b7-8059-f354c792b1a4.png)
 
+# The new github repository address is https://github.com/AgoraIO-Extensions/Agora-Unreal-RTC-SDK, if you want to use it, please click.
+
 
 # Important note 2022 #
 This repo is a dated SDK that only can support UE4.23 and thus is deprecated.  Agora is creating a new official BluePrint SDK (ver.4.x) that will be coming before the end of 2022.
